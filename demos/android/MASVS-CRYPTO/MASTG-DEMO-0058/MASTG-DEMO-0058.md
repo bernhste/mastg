@@ -41,11 +41,11 @@ These are the relevant methods we are hooking to detect the use of ECB and wheth
     - [`KeyGenParameterSpec.Builder#setRandomizedEncryptionRequired`](https://developer.android.com/reference/android/security/keystore/KeyGenParameterSpec.Builder#setRandomizedEncryptionRequired(boolean))
     - [`KeyProtection.Builder#setRandomizedEncryptionRequired`](https://developer.android.com/reference/android/security/keystore/KeyProtection.Builder#setRandomizedEncryptionRequired(boolean))
 
-{{ hooks.json # run.sh }}
+{{ hooks.yaml # run.sh }}
 
 ## Observation
 
-The output shows all instances of block modes that were found at runtime. A backtrace is also provided to help identify the location in the code. If randomized encryption is disabled, that is also indicated in the output.
+The output shows all instances of block modes that were found at runtime. If randomized encryption is disabled, that is also indicated in the output.
 
 {{ output.json }}
 

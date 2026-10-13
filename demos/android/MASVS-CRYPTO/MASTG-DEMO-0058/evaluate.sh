@@ -5,7 +5,7 @@ jq -r -s '
   | .[]
   | select(
       .method=="setBlockModes"
-      and any(.inputParameters[]?.value[]?; . == "ECB")
+      and any(.argsIn[]?.value[]?; . == "ECB")
     )
-  | "Class: \(.class), Method: \(.method), Block modes: \([.inputParameters[]?.value[]?] | join(", "))"
+  | "Class: \(.javaClassName), Method: \(.method), Block modes: \([.argsIn[]?.value[]?] | join(", "))"
 ' output.json > evaluation.txt

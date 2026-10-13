@@ -26,7 +26,7 @@ The app reads `OpenableColumns.DISPLAY_NAME` from the returned `ContentProvider`
 4. Exercise the app to trigger a flow that requests data from another app through an implicit intent.
 5. Stop the script by pressing `Ctrl+C` and/or `q` to quit the Frida CLI.
 
-{{ hooks.json # run.sh }}
+{{ hooks.yaml # run.sh }}
 
 ## Observation
 

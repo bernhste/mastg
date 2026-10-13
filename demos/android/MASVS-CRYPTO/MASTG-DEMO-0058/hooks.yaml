@@ -1,0 +1,14 @@
+metadata:
+  name: "MASTG-DEMO-0058: Using KeyGenParameterSpec with a Broken ECB Block Mode"
+  category: "CRYPTO"
+  platform: Android
+
+hookCollection:
+  - javaClass: android.security.keystore.KeyGenParameterSpec$Builder
+    hooks:
+      - setBlockModes
+      - setRandomizedEncryptionRequired
+  - javaClass: android.security.keystore.KeyProtection$Builder
+    hooks:
+      - setBlockModes
+      - setRandomizedEncryptionRequired

@@ -1,0 +1,23 @@
+metadata:
+  name: "MASTG-DEMO-0139: Path Traversal via Malicious ContentProvider Filename"
+  category: "CODE"
+  platform: Android
+
+hookCollection:
+  - javaClass: java.io.File
+    hooks:
+      - method: $init
+        overloads:
+          - params:
+              - java.io.File
+              - java.lang.String
+  - javaClass: java.io.FileOutputStream
+    hookSettings:
+      callerFilter:
+        - "org.owasp.mastestapp.VulnerableActivity"
+    hooks:
+      - method: $init
+        overloads:
+          - params:
+              - java.io.File
+

@@ -1,0 +1,10 @@
+metadata:
+  name: "MASTG-DEMO-0106: Extracting Sensitive Data from Cipher.doFinal via Frida Hooking"
+  category: "RESILIENCE"
+  platform: Android
+
+hookCollection:
+  - javaClass: javax.crypto.Cipher
+    hooks:
+      - doFinal
+

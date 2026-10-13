@@ -28,11 +28,11 @@ This sample encrypts and decrypts a sensitive API key using AES/GCM via the Andr
 4. Click the **Start** button
 5. Stop the script by pressing `Ctrl+C` and/or `q` to quit the Frida CLI
 
-{{ hooks.json # run.sh }}
+{{ hooks.yaml # run.sh }}
 
 ## Observation
 
-The output contains all instances of `Cipher.doFinal()` method calls found at runtime. A backtrace is also provided to help identify the location in the code. The first `doFinal` call reveals the sensitive API key in plaintext as the input parameter during encryption and the second call reveals it as the return value during decryption.
+The output contains all instances of `Cipher.doFinal()` method calls found at runtime. The first `doFinal` call reveals the sensitive API key in plaintext as the input parameter during encryption and the second call reveals it as the return value during decryption.
 
 {{ output.json }}
 

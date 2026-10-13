@@ -1,0 +1,9 @@
+metadata:
+  name: "MASTG-DEMO-0107: Detecting Frida hooks and terminating the application on response"
+  category: "RESILIENCE"
+  platform: Android
+
+hookCollection:
+  - javaClass: javax.crypto.Cipher
+    hooks:
+      - doFinal

@@ -25,11 +25,11 @@ The code snippet below shows sample code which stores sensitive data using `Stri
 4. Click the **Start** button
 5. Stop the script by pressing `Ctrl+C` and/or `q` to quit the Frida CLI
 
-{{ hooks.json # run.sh }}
+{{ hooks.yaml # run.sh }}
 
 ## Observation
 
-The output shows all instances of strings written using `EncryptedSharedPreferences` via `SharedPreferences` that were found at runtime. A backtrace is also provided to help identify the location in the code.
+The output shows all instances of strings written using `EncryptedSharedPreferences` via `SharedPreferences` that were found at runtime.
 
 {{ output.json }}
 

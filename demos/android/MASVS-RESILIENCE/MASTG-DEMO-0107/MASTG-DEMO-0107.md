@@ -28,7 +28,7 @@ This sample encrypts and decrypts a sensitive API key using AES/GCM via the Andr
 4. Click the **Start** button
 5. Observe that the app terminates before the hooks can capture any data
 
-{{ hooks.json # run.sh }}
+{{ hooks.yaml # run.sh }}
 
 ## Observation
 

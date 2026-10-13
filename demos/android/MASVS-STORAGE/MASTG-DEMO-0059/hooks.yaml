@@ -1,0 +1,28 @@
+metadata:
+  name: "MASTG-DEMO-0059: SharedPreferences Sensitive Data Storage"
+  category: "STORAGE"
+  platform: Android
+
+hookCollection:
+  - javaClass: android.app.SharedPreferencesImpl$EditorImpl
+    hooks:
+      - putString
+      - putStringSet
+  - javaClass: javax.crypto.Cipher
+    hooks:
+      - getInstance
+      - doFinal
+      - init
+      - update
+  - javaClass: java.security.KeyStore
+    hooks:
+      - setEntry
+      - getEntry
+  - javaClass: javax.crypto.KeyGenerator
+    hooks:
+      - getInstance
+      - generateKey
+  - javaClass: android.util.Base64
+    hooks:
+      - encodeToString
+      - decode

@@ -1,0 +1,21 @@
+metadata:
+  name: "MASTG-DEMO-0088: Runtime Detection of Root Detection Mechanisms"
+  category: "RESILIENCE"
+  platform: Android
+
+hookCollection:
+  - javaClass: java.io.File
+    hookSettings:
+      callerFilter:
+        - "org.owasp.mastestapp.MastgTest"
+    hooks:
+      - method: $init
+        overloads:
+          - params:
+              - java.lang.String
+  - javaClass: java.lang.Runtime
+    hookSettings:
+      callerFilter:
+        - "org.owasp.mastestapp.MastgTest"
+    hooks:
+      - exec

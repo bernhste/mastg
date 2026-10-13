@@ -1,0 +1,10 @@
+metadata:
+  name: "MASTG-DEMO-0081: Sensitive User Data Sent to Firebase Analytics"
+  category: "PRIVACY"
+  platform: Android
+
+hookCollection:
+  - javaClass: com.google.firebase.analytics.FirebaseAnalytics
+    hooks:
+      - logEvent
+

@@ -53,11 +53,11 @@ Our hooks also trace calls to cryptographic methods to help determine whether th
     - [`javax.crypto.KeyGenerator.*(...)`](https://developer.android.com/reference/javax/crypto/KeyGenerator)
     - [`android.util.Base64.*(...)`](https://developer.android.com/reference/android/util/Base64)
 
-{{ hooks.json # run.sh }}
+{{ hooks.yaml # run.sh }}
 
 ## Observation
 
-The output shows all instances of strings written via `SharedPreferences` that were found at runtime. A backtrace is also provided to help identify the corresponding locations in the code.
+The output shows all instances of strings written via `SharedPreferences` that were found at runtime.
 
 {{ output.json }}
 

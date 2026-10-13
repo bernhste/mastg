@@ -26,11 +26,11 @@ For the sake of this demo, we pretend that the app is published on Google Play a
 5. Click the **Start** button
 6. Stop the script by pressing `Ctrl+C` and/or `q` to quit the Frida CLI
 
-{{ hooks.json # run.sh }}
+{{ hooks.yaml # run.sh }}
 
 ## Observation
 
-The output shows all instances of `logEvent` calls to the Firebase Analytics SDK found at runtime, along with the parameters sent. A backtrace is also provided to help identify the location in the code.
+The output shows all instances of `logEvent` calls to the Firebase Analytics SDK found at runtime, along with the parameters sent.
 
 {{ output.json }}
 
