@@ -6,10 +6,25 @@ metadata:
 hookCollection:
   - javaClass: androidx.security.crypto.EncryptedSharedPreferences$Editor
     hooks:
-      - putString
-      - putStringSet
+      - method: putString
+        overloads:
+          - params:
+              - [ java.lang.String, key ]
+              - [ java.lang.String, value ]
+      - method: putStringSet
+        overloads:
+          - params:
+              - [ java.lang.String, key ]
+              - [ java.util.Set, values ]
   - javaClass: android.app.SharedPreferencesImpl$EditorImpl
     hooks:
-      - putString
-      - putStringSet
-
+      - method: putString
+        overloads:
+          - params:
+              - [ java.lang.String, key ]
+              - [ java.lang.String, value ]
+      - method: putStringSet
+        overloads:
+          - params:
+              - [ java.lang.String, key ]
+              - [ java.util.Set, values ]

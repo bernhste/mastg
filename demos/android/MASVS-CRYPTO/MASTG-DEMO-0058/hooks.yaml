@@ -6,9 +6,21 @@ metadata:
 hookCollection:
   - javaClass: android.security.keystore.KeyGenParameterSpec$Builder
     hooks:
-      - setBlockModes
-      - setRandomizedEncryptionRequired
+      - method: setBlockModes
+        overloads:
+          - params:
+              - [ "[Ljava.lang.String;", blockModes ]
+      - method: setRandomizedEncryptionRequired
+        overloads:
+          - params:
+              - [ boolean, randomizedEncryptionRequired ]
   - javaClass: android.security.keystore.KeyProtection$Builder
     hooks:
-      - setBlockModes
-      - setRandomizedEncryptionRequired
+      - method: setBlockModes
+        overloads:
+          - params:
+              - [ "[Ljava.lang.String;", blockModes ]
+      - method: setRandomizedEncryptionRequired
+        overloads:
+          - params:
+              - [ boolean, randomizedEncryptionRequired ]

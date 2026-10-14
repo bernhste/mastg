@@ -6,23 +6,47 @@ metadata:
 hookCollection:
   - javaClass: android.app.SharedPreferencesImpl$EditorImpl
     hooks:
-      - putString
-      - putStringSet
+      - method: putString
+        overloads:
+          - params:
+              - [ java.lang.String, key ]
+              - [ java.lang.String, value ]
+      - method: putStringSet
+        overloads:
+          - params:
+              - [ java.lang.String, key ]
+              - [ java.util.Set, values ]
+
   - javaClass: javax.crypto.Cipher
     hooks:
-      - getInstance
-      - doFinal
-      - init
-      - update
-  - javaClass: java.security.KeyStore
-    hooks:
-      - setEntry
-      - getEntry
+      - method: getInstance
+        overloads:
+          - params:
+              - [ java.lang.String, transformation ]
+      - method: init
+        overloads:
+          - params:
+              - [ int, opmode, { decoder: constants } ]
+              - [ java.security.Key, key ]
+      - method: doFinal
+        overloads:
+          - params:
+              - [ "[B", input, { decoder: string } ]
+            retType: { decoder: hex }
+
   - javaClass: javax.crypto.KeyGenerator
     hooks:
-      - getInstance
+      - method: getInstance
+        overloads:
+          - params:
+              - [ java.lang.String, algorithm ]
+              - [ java.lang.String, provider ]
       - generateKey
+
   - javaClass: android.util.Base64
     hooks:
-      - encodeToString
-      - decode
+      - method: encodeToString
+        overloads:
+          - params:
+              - [ "[B", input, { decoder: hex } ]
+              - [ int, flags, { decoder: constants } ]

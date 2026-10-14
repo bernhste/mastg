@@ -9,8 +9,8 @@ hookCollection:
       - method: $init
         overloads:
           - params:
-              - java.io.File
-              - java.lang.String
+              - [ java.io.File, parent ]
+              - [ java.lang.String, child ]
   - javaClass: java.io.FileOutputStream
     hookSettings:
       callerFilter:
@@ -19,5 +19,6 @@ hookCollection:
       - method: $init
         overloads:
           - params:
-              - java.io.File
+              - [ java.io.File, file ]
+
 

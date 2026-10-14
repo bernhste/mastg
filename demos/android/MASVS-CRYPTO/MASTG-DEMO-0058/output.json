@@ -1,15 +1,16 @@
 {
-  "id": "6bd259e3-6f4d-4508-9859-08306d23d60f",
-  "timestamp": "2026-10-13T17:05:22.035Z",
+  "id": "1b6259a9-62d4-4bc8-bbda-504e8afbcd94",
+  "timestamp": "2026-10-14T12:24:49.731Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "ebdab7c",
+  "hashCode": "cf55714",
   "argsIn": [
     {
       "type": "[Ljava.lang.String;",
+      "name": "blockModes",
       "value": [
         "ECB"
       ]
@@ -20,7 +21,7 @@
     "type": "android.security.keystore.KeyProtection$Builder",
     "value": {
       "type": "android.security.keystore.KeyProtection$Builder",
-      "value": "android.security.keystore.KeyProtection$Builder@ebdab7c"
+      "value": "android.security.keystore.KeyProtection$Builder@cf55714"
     }
   },
   "javaClassName": "android.security.keystore.KeyProtection$Builder",
@@ -30,17 +31,18 @@
   }
 }
 {
-  "id": "03457e59-c9be-4d38-8fad-f8aec015520d",
-  "timestamp": "2026-10-13T17:05:22.068Z",
+  "id": "8ad14f17-7ff6-4ee3-b1ee-bb00e60ceebe",
+  "timestamp": "2026-10-14T12:24:49.935Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "548045a",
+  "hashCode": "1316903",
   "argsIn": [
     {
       "type": "[Ljava.lang.String;",
+      "name": "blockModes",
       "value": [
         "ECB"
       ]
@@ -51,7 +53,7 @@
     "type": "android.security.keystore.KeyProtection$Builder",
     "value": {
       "type": "android.security.keystore.KeyProtection$Builder",
-      "value": "android.security.keystore.KeyProtection$Builder@548045a"
+      "value": "android.security.keystore.KeyProtection$Builder@1316903"
     }
   },
   "javaClassName": "android.security.keystore.KeyProtection$Builder",
@@ -61,17 +63,18 @@
   }
 }
 {
-  "id": "809e2342-ef61-4fd7-adc5-f4829e5bdba7",
-  "timestamp": "2026-10-13T17:05:22.069Z",
+  "id": "6528803f-6484-4542-8b40-7e781fef06f4",
+  "timestamp": "2026-10-14T12:24:49.943Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "548045a",
+  "hashCode": "1316903",
   "argsIn": [
     {
       "type": "boolean",
+      "name": "randomizedEncryptionRequired",
       "value": false
     }
   ],
@@ -80,7 +83,7 @@
     "type": "android.security.keystore.KeyProtection$Builder",
     "value": {
       "type": "android.security.keystore.KeyProtection$Builder",
-      "value": "android.security.keystore.KeyProtection$Builder@548045a"
+      "value": "android.security.keystore.KeyProtection$Builder@1316903"
     }
   },
   "javaClassName": "android.security.keystore.KeyProtection$Builder",
@@ -90,17 +93,18 @@
   }
 }
 {
-  "id": "53ed0d09-e9b6-4469-9c79-3645a20bf74d",
-  "timestamp": "2026-10-13T17:05:22.093Z",
+  "id": "25bde63a-476d-4e5a-8743-2c23c6a07c23",
+  "timestamp": "2026-10-14T12:24:50.007Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "899768b",
+  "hashCode": "b5ad080",
   "argsIn": [
     {
       "type": "[Ljava.lang.String;",
+      "name": "blockModes",
       "value": [
         "ECB"
       ]
@@ -111,7 +115,7 @@
     "type": "android.security.keystore.KeyGenParameterSpec$Builder",
     "value": {
       "type": "android.security.keystore.KeyGenParameterSpec$Builder",
-      "value": "android.security.keystore.KeyGenParameterSpec$Builder@899768b"
+      "value": "android.security.keystore.KeyGenParameterSpec$Builder@b5ad080"
     }
   },
   "javaClassName": "android.security.keystore.KeyGenParameterSpec$Builder",

@@ -6,5 +6,8 @@ metadata:
 hookCollection:
   - javaClass: javax.crypto.Cipher
     hooks:
-      - doFinal
-
+      - method: doFinal
+        overloads:
+          - params:
+              - [ "[B", input, { decoder: string } ]
+            retType: { decoder: string }

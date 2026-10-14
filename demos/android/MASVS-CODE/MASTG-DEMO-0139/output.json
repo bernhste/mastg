@@ -1,22 +1,25 @@
 {
-  "id": "4b50f088-d50c-4e99-b23b-ed922e81009d",
-  "timestamp": "2026-10-13T20:44:54.789Z",
+  "id": "56c685ce-a732-4a55-8f5a-5dbdab575b38",
+  "timestamp": "2026-10-14T13:09:34.448Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "44412e5",
+  "hashCode": "ac59f12",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "misc"
     }
   ],
@@ -31,24 +34,27 @@
   }
 }
 {
-  "id": "b29f66e1-3ac7-4ba4-ba38-7cd844ab0ba4",
-  "timestamp": "2026-10-13T20:44:54.793Z",
+  "id": "3e4d905e-e5f9-42ec-878d-35ea4e643dbd",
+  "timestamp": "2026-10-14T13:09:34.448Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "dc01ba",
+  "hashCode": "68866e3",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "user"
     }
   ],
@@ -63,24 +69,27 @@
   }
 }
 {
-  "id": "b22951c8-d6a9-4885-9847-8b06efe61b4c",
-  "timestamp": "2026-10-13T20:44:54.794Z",
+  "id": "25bad9bf-23d8-4340-a90f-a2687b101566",
+  "timestamp": "2026-10-14T13:09:34.449Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "60f986b",
+  "hashCode": "dff28e0",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/user"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "0"
     }
   ],
@@ -95,24 +104,27 @@
   }
 }
 {
-  "id": "a47ae748-85fe-4c1c-bc13-bc1fd7d6fcd1",
-  "timestamp": "2026-10-13T20:44:54.795Z",
+  "id": "435858b6-d9af-4631-8f25-a3852b0c6d25",
+  "timestamp": "2026-10-14T13:09:34.450Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "2d6afc8",
+  "hashCode": "158d799",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/user/0"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "cacerts-added"
     }
   ],
@@ -127,24 +139,27 @@
   }
 }
 {
-  "id": "b12f00ad-baf1-455f-a199-cc2035f01e2e",
-  "timestamp": "2026-10-13T20:44:54.824Z",
+  "id": "5180c5d8-b543-4244-bb1c-ae2745577b3c",
+  "timestamp": "2026-10-14T13:09:34.465Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "ba7f861",
+  "hashCode": "dda9a5e",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/keychain"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "cacerts-added"
     }
   ],
@@ -159,24 +174,27 @@
   }
 }
 {
-  "id": "b42f20bc-6ecb-4065-8297-8c11560da51a",
-  "timestamp": "2026-10-13T20:44:54.827Z",
+  "id": "b5dc253d-8106-440a-b398-658183ca4ecf",
+  "timestamp": "2026-10-14T13:09:34.467Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "387f86",
+  "hashCode": "3d08e3f",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/keychain"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "cacerts-removed"
     }
   ],
@@ -191,24 +209,27 @@
   }
 }
 {
-  "id": "07f8a12e-96ab-46e8-bd56-1dc93b540655",
-  "timestamp": "2026-10-13T20:44:54.827Z",
+  "id": "dfb68be1-890f-4828-9492-a4d86517d4df",
+  "timestamp": "2026-10-14T13:09:34.468Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "68d5047",
+  "hashCode": "eddf30c",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/user/0"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "cacerts-removed"
     }
   ],
@@ -223,24 +244,27 @@
   }
 }
 {
-  "id": "f36e1ae4-a62a-4ea7-96e5-c8fc4f0218b7",
-  "timestamp": "2026-10-13T20:44:54.882Z",
+  "id": "c0f184e2-1998-47f5-800a-3219c81e8807",
+  "timestamp": "2026-10-14T13:09:34.527Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "68b0074",
+  "hashCode": "bd65455",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/user/0/org.owasp.mastestapp"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "code_cache"
     }
   ],
@@ -255,24 +279,27 @@
   }
 }
 {
-  "id": "fbe61f93-0856-467e-a8aa-f90a31ce4da1",
-  "timestamp": "2026-10-13T20:44:55.928Z",
+  "id": "0db0285e-1bc3-49fe-9665-b00f56953350",
+  "timestamp": "2026-10-14T13:09:35.352Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "591afe0",
+  "hashCode": "374e0d1",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "misc"
     }
   ],
@@ -287,24 +314,27 @@
   }
 }
 {
-  "id": "378d6834-271a-48b8-bf6e-89a36f0e10ff",
-  "timestamp": "2026-10-13T20:44:55.930Z",
+  "id": "0b32414a-4e02-481a-9ebc-12b4d9e49194",
+  "timestamp": "2026-10-14T13:09:35.352Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "9de5299",
+  "hashCode": "7e99736",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "profiles"
     }
   ],
@@ -319,24 +349,27 @@
   }
 }
 {
-  "id": "450069ac-75d8-49ff-bf54-5485c300e803",
-  "timestamp": "2026-10-13T20:44:55.944Z",
+  "id": "3987f18c-4c86-4a44-891a-f486bcb503b4",
+  "timestamp": "2026-10-14T13:09:35.353Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "c29f95e",
+  "hashCode": "44c0637",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/profiles"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "cur"
     }
   ],
@@ -351,24 +384,27 @@
   }
 }
 {
-  "id": "a3adc32a-39bc-42c5-a5a5-9fcc443f1cb1",
-  "timestamp": "2026-10-13T20:44:55.946Z",
+  "id": "a20e0105-4ff6-4dff-8445-47c499b9a805",
+  "timestamp": "2026-10-14T13:09:35.355Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "48e013f",
+  "hashCode": "3cd97a4",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/profiles/cur"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "0"
     }
   ],
@@ -383,24 +419,27 @@
   }
 }
 {
-  "id": "34f2516f-2bf2-4e98-8c01-cea972144e2f",
-  "timestamp": "2026-10-13T20:44:55.948Z",
+  "id": "61993861-81b8-46de-adc1-c376a6ccbff2",
+  "timestamp": "2026-10-14T13:09:35.356Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "a91ea0c",
+  "hashCode": "f95b90d",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/profiles/cur/0"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "org.owasp.mastestapp"
     }
   ],
@@ -415,24 +454,27 @@
   }
 }
 {
-  "id": "11569da7-1dbb-492c-b6cd-d11c353dd685",
-  "timestamp": "2026-10-13T20:44:55.950Z",
+  "id": "6bed19b6-2bd1-461d-a5b8-5b8917125688",
+  "timestamp": "2026-10-14T13:09:35.357Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "6b87f55",
+  "hashCode": "e2ff0c2",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/profiles/cur/0/org.owasp.mastestapp"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "primary.prof"
     }
   ],
@@ -447,24 +489,27 @@
   }
 }
 {
-  "id": "9041ea8b-2383-42e8-ad4e-55825c670c8b",
-  "timestamp": "2026-10-13T20:44:55.950Z",
+  "id": "48b9c3af-cbe3-4322-9f10-110a4e7bcc81",
+  "timestamp": "2026-10-14T13:09:35.363Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "4184d6a",
+  "hashCode": "dd0ced3",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "misc"
     }
   ],
@@ -479,24 +524,27 @@
   }
 }
 {
-  "id": "34640be7-955d-4c43-a97e-7e04ed34d014",
-  "timestamp": "2026-10-13T20:44:55.951Z",
+  "id": "6a89d842-29a1-4453-9cfe-797fd18a2545",
+  "timestamp": "2026-10-14T13:09:35.364Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "feb725b",
+  "hashCode": "b1e8a10",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "profiles"
     }
   ],
@@ -511,24 +559,27 @@
   }
 }
 {
-  "id": "14ef7e19-1bfa-4f91-8958-e1d4cad9c6fa",
-  "timestamp": "2026-10-13T20:44:55.968Z",
+  "id": "a11b75ae-941a-404d-8831-867274b1792e",
+  "timestamp": "2026-10-14T13:09:35.371Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "1799af8",
+  "hashCode": "271d909",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/profiles"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "ref"
     }
   ],
@@ -543,24 +594,27 @@
   }
 }
 {
-  "id": "08360969-1c9d-4e0e-ac7b-8f056d006072",
-  "timestamp": "2026-10-13T20:44:55.970Z",
+  "id": "821be4cd-b40f-4d4d-987f-1c2ca88fe7ec",
+  "timestamp": "2026-10-14T13:09:35.373Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "1cebbd1",
+  "hashCode": "90570e",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/profiles/ref"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "org.owasp.mastestapp"
     }
   ],
@@ -575,24 +629,27 @@
   }
 }
 {
-  "id": "9fa8929a-cc79-4306-b979-a296e7c0a3d7",
-  "timestamp": "2026-10-13T20:44:55.985Z",
+  "id": "41fd122c-308e-4f4f-8344-8cead94d25db",
+  "timestamp": "2026-10-14T13:09:35.373Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "6e5d636",
+  "hashCode": "acf852f",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/profiles/ref/org.owasp.mastestapp"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "primary.prof"
     }
   ],
@@ -607,24 +664,27 @@
   }
 }
 {
-  "id": "010d9ab7-2237-49f0-a91b-55e0b4b38512",
-  "timestamp": "2026-10-13T20:44:56.123Z",
+  "id": "adf78e06-6be5-44e2-825f-5b390959fc24",
+  "timestamp": "2026-10-14T13:09:35.503Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "5296ea4",
+  "hashCode": "ed5fcc5",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/user/0/org.owasp.mastestapp"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "cache"
     }
   ],
@@ -639,24 +699,27 @@
   }
 }
 {
-  "id": "c3442ea3-4dbf-4825-8b12-84fec60a7e1b",
-  "timestamp": "2026-10-13T20:44:56.134Z",
+  "id": "d89191a6-5daa-4da5-a520-a3a731a35c7e",
+  "timestamp": "2026-10-14T13:09:35.519Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "932440d",
+  "hashCode": "97ed61a",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/user_de/0/org.owasp.mastestapp"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "code_cache"
     }
   ],
@@ -671,24 +734,27 @@
   }
 }
 {
-  "id": "fbf91381-3e64-437c-86ec-a09a3b27e186",
-  "timestamp": "2026-10-13T20:44:56.135Z",
+  "id": "db862713-37c0-4913-9881-da172114c28a",
+  "timestamp": "2026-10-14T13:09:35.520Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "a311fc2",
+  "hashCode": "259454b",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/user_de/0/org.owasp.mastestapp"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "cache"
     }
   ],
@@ -703,24 +769,27 @@
   }
 }
 {
-  "id": "95853c58-a44a-4050-a6a7-a607948301d8",
-  "timestamp": "2026-10-13T20:44:56.155Z",
+  "id": "2b4c416b-0fb0-4aba-9660-95c1a0721275",
+  "timestamp": "2026-10-14T13:09:35.524Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "a3d1d3",
+  "hashCode": "6218b28",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/user_de/0/org.owasp.mastestapp/cache"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "com.android.opengl.shaders_cache"
     }
   ],
@@ -735,24 +804,27 @@
   }
 }
 {
-  "id": "8bfe984e-e028-49e8-b4e9-bdb70bc243f6",
-  "timestamp": "2026-10-13T20:44:56.155Z",
+  "id": "678e111f-783a-4433-a6fa-8fa4228dd5f6",
+  "timestamp": "2026-10-14T13:09:35.529Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "be0d110",
+  "hashCode": "d9ea041",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/user_de/0/org.owasp.mastestapp/cache"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "com.android.skia.shaders_cache"
     }
   ],
@@ -767,24 +839,27 @@
   }
 }
 {
-  "id": "38f14645-c51d-4144-a147-e072085cb4bf",
-  "timestamp": "2026-10-13T20:44:56.287Z",
+  "id": "9b9fe25d-2e98-407e-95c9-c7a1ad918b7f",
+  "timestamp": "2026-10-14T13:09:35.573Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "cc1409",
+  "hashCode": "4a439e6",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "misc"
     }
   ],
@@ -799,24 +874,27 @@
   }
 }
 {
-  "id": "06c38fac-1ecd-4800-8406-e35bdc92da16",
-  "timestamp": "2026-10-13T20:44:56.300Z",
+  "id": "86cc5d12-bad0-4d30-bbdb-cbffffde301c",
+  "timestamp": "2026-10-14T13:09:35.573Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "cf5760e",
+  "hashCode": "174eb27",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "user"
     }
   ],
@@ -831,24 +909,27 @@
   }
 }
 {
-  "id": "a528661f-c05c-49fc-b250-0650e774b27c",
-  "timestamp": "2026-10-13T20:44:56.304Z",
+  "id": "cf5d6b43-2485-45cf-8028-87af1fda8e69",
+  "timestamp": "2026-10-14T13:09:35.575Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "b4fb82f",
+  "hashCode": "59831d4",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/user"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "0"
     }
   ],
@@ -863,24 +944,27 @@
   }
 }
 {
-  "id": "4b1107b0-7c77-4385-94d2-9f55647e15ab",
-  "timestamp": "2026-10-13T20:44:56.305Z",
+  "id": "92fdba4a-6ff9-4534-9d17-fa6a9664d1b5",
+  "timestamp": "2026-10-14T13:09:35.576Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "e69ee3c",
+  "hashCode": "ef3ff7d",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/user/0"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "cacerts-removed"
     }
   ],
@@ -895,24 +979,27 @@
   }
 }
 {
-  "id": "a211c35f-f2e3-4732-9409-dadef2e84c9a",
-  "timestamp": "2026-10-13T20:45:10.816Z",
+  "id": "8d488e72-2bfe-47e8-8b6a-f93368654b43",
+  "timestamp": "2026-10-14T13:09:42.230Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "6d9bb29",
+  "hashCode": "aa78b61",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/user/0/org.owasp.mastestapp"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "files"
     }
   ],
@@ -927,24 +1014,27 @@
   }
 }
 {
-  "id": "29e1ee2b-f537-415c-a5e5-9b0c8a9f72ef",
-  "timestamp": "2026-10-13T20:45:10.818Z",
+  "id": "f07b5f03-af42-471c-9dc7-bdc0022ed27c",
+  "timestamp": "2026-10-14T13:09:42.288Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "c715eae",
+  "hashCode": "1ce9b47",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/user/0/org.owasp.mastestapp/files"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "profileinstaller_profileWrittenFor_lastUpdateTime.dat"
     }
   ],
@@ -959,24 +1049,27 @@
   }
 }
 {
-  "id": "1ddc7700-abad-4484-949a-0574b2520dfb",
-  "timestamp": "2026-10-13T20:45:10.818Z",
+  "id": "28df5666-6c01-46ee-8a5d-4e20cd676698",
+  "timestamp": "2026-10-14T13:09:42.328Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "fb2844f",
+  "hashCode": "831ef74",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/profiles/cur/0/org.owasp.mastestapp"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "primary.prof"
     }
   ],
@@ -991,24 +1084,27 @@
   }
 }
 {
-  "id": "c9104a42-1b4b-417f-81c3-82d8da2fee3b",
-  "timestamp": "2026-10-13T20:45:10.827Z",
+  "id": "5a7d617d-ec73-45a7-b4c4-7e4fbf9f7c09",
+  "timestamp": "2026-10-14T13:09:42.507Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "76c97dc",
+  "hashCode": "bf07c9d",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/profiles/ref/org.owasp.mastestapp"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "primary.prof"
     }
   ],
@@ -1023,24 +1119,27 @@
   }
 }
 {
-  "id": "613a4bf6-ac9a-4aa5-8054-37dbe1e6f33b",
-  "timestamp": "2026-10-13T20:45:10.833Z",
+  "id": "533e72cd-45c4-4096-9b29-b7278fa646f6",
+  "timestamp": "2026-10-14T13:09:42.519Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "fa9e0e5",
+  "hashCode": "9cb1512",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/misc/profiles/cur/0/org.owasp.mastestapp"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "primary.prof"
     }
   ],
@@ -1055,24 +1154,27 @@
   }
 }
 {
-  "id": "4158c53f-db97-41fa-a0b7-5ea98833f9e6",
-  "timestamp": "2026-10-13T20:45:10.875Z",
+  "id": "5e1f072a-f6ae-4588-b0e3-2ccf148e48ad",
+  "timestamp": "2026-10-14T13:09:42.520Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "3f8b7ba",
+  "hashCode": "9cfa4e3",
   "argsIn": [
     {
       "type": "java.io.File",
+      "name": "parent",
       "value": {
         "type": "java.io.File",
+        "name": "parent",
         "value": "/data/user/0/org.owasp.mastestapp/files"
       }
     },
     {
       "type": "java.lang.String",
+      "name": "child",
       "value": "profileInstalled"
     }
   ],
@@ -1081,350 +1183,6 @@
     "type": "void"
   },
   "javaClassName": "java.io.File",
-  "method": "$init",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "0aadd245-fa4c-48e8-b4d0-3e6bc2d6de2c",
-  "timestamp": "2026-10-13T20:45:19.994Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "e4ae9d1",
-  "argsIn": [
-    {
-      "type": "java.io.File",
-      "value": {
-        "type": "java.io.File",
-        "value": "/data/user/0/org.owasp.mastestapp"
-      }
-    },
-    {
-      "type": "java.lang.String",
-      "value": "files"
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "void"
-  },
-  "javaClassName": "java.io.File",
-  "method": "$init",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "43f8937d-509d-4ef0-8bad-91c55a6d17aa",
-  "timestamp": "2026-10-13T20:45:19.995Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "1c96c36",
-  "argsIn": [
-    {
-      "type": "java.io.File",
-      "value": {
-        "type": "java.io.File",
-        "value": "/data/user/0/org.owasp.mastestapp/files"
-      }
-    },
-    {
-      "type": "java.lang.String",
-      "value": "private"
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "void"
-  },
-  "javaClassName": "java.io.File",
-  "method": "$init",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "4d9c3bbb-86d4-431f-b98d-1923e43b2bc6",
-  "timestamp": "2026-10-13T20:45:19.995Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "97fb737",
-  "argsIn": [
-    {
-      "type": "java.io.File",
-      "value": {
-        "type": "java.io.File",
-        "value": "/data/user/0/org.owasp.mastestapp/files"
-      }
-    },
-    {
-      "type": "java.lang.String",
-      "value": "public"
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "void"
-  },
-  "javaClassName": "java.io.File",
-  "method": "$init",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "9b6734b7-3886-4461-8e18-2b79377d37e6",
-  "timestamp": "2026-10-13T20:45:20.003Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "bdf4a4",
-  "argsIn": [
-    {
-      "type": "java.io.File",
-      "value": {
-        "type": "java.io.File",
-        "value": "/data/user/0/org.owasp.mastestapp/files/private"
-      }
-    },
-    {
-      "type": "java.lang.String",
-      "value": "secret.txt"
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "void"
-  },
-  "javaClassName": "java.io.File",
-  "method": "$init",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "020c7087-334a-44c6-be93-f6b49ac5cc21",
-  "timestamp": "2026-10-13T20:45:20.012Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "c43520d",
-  "argsIn": [
-    {
-      "type": "java.io.File",
-      "value": {
-        "type": "java.io.File",
-        "value": "/data/user/0/org.owasp.mastestapp/files/private/secret.txt"
-      }
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "void"
-  },
-  "javaClassName": "java.io.FileOutputStream",
-  "method": "$init",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "a949ca97-3b1b-4a4e-8ccc-ef34baede01e",
-  "timestamp": "2026-10-13T20:45:22.901Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "479383b",
-  "argsIn": [
-    {
-      "type": "java.io.File",
-      "value": {
-        "type": "java.io.File",
-        "value": "/data/user/0/org.owasp.mastestapp"
-      }
-    },
-    {
-      "type": "java.lang.String",
-      "value": "cache"
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "void"
-  },
-  "javaClassName": "java.io.File",
-  "method": "$init",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "11a595e4-eda2-4b36-99ed-eb9d540b3ccb",
-  "timestamp": "2026-10-13T20:45:22.905Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "f611b58",
-  "argsIn": [
-    {
-      "type": "java.io.File",
-      "value": {
-        "type": "java.io.File",
-        "value": "/data/user/0/org.owasp.mastestapp"
-      }
-    },
-    {
-      "type": "java.lang.String",
-      "value": "code_cache"
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "void"
-  },
-  "javaClassName": "java.io.File",
-  "method": "$init",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "fb53f2d3-3877-45d1-bd02-4fb0ad3254a0",
-  "timestamp": "2026-10-13T20:45:23.469Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "bda4b1",
-  "argsIn": [
-    {
-      "type": "java.io.File",
-      "value": {
-        "type": "java.io.File",
-        "value": "/data/data/org.owasp.mastestapp/cache"
-      }
-    },
-    {
-      "type": "java.lang.String",
-      "value": "frida589810357790397332.dex"
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "void"
-  },
-  "javaClassName": "java.io.File",
-  "method": "$init",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "9164a2e8-d080-4c29-b409-625f4beeef94",
-  "timestamp": "2026-10-13T20:45:23.566Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "ad33d96",
-  "argsIn": [
-    {
-      "type": "java.io.File",
-      "value": {
-        "type": "java.io.File",
-        "value": "/data/user/0/org.owasp.mastestapp/files"
-      }
-    },
-    {
-      "type": "java.lang.String",
-      "value": "public"
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "void"
-  },
-  "javaClassName": "java.io.File",
-  "method": "$init",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "4ca4fe08-51ca-4379-b82d-fd8d3510f295",
-  "timestamp": "2026-10-13T20:45:23.567Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "b91d17",
-  "argsIn": [
-    {
-      "type": "java.io.File",
-      "value": {
-        "type": "java.io.File",
-        "value": "/data/user/0/org.owasp.mastestapp/files/public"
-      }
-    },
-    {
-      "type": "java.lang.String",
-      "value": "../private/secret.txt"
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "void"
-  },
-  "javaClassName": "java.io.File",
-  "method": "$init",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "86d85b23-79ef-43bd-a2a2-21a8f87cd129",
-  "timestamp": "2026-10-13T20:45:23.578Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "c789504",
-  "argsIn": [
-    {
-      "type": "java.io.File",
-      "value": {
-        "type": "java.io.File",
-        "value": "/data/user/0/org.owasp.mastestapp/files/public/../private/secret.txt"
-      }
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "void"
-  },
-  "javaClassName": "java.io.FileOutputStream",
   "method": "$init",
   "fieldType": {
     "fieldType": "instance"

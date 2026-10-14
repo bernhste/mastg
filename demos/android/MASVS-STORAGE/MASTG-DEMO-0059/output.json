@@ -1,19 +1,21 @@
 {
-  "id": "d613db25-fa8f-47bd-841d-595416669cd5",
-  "timestamp": "2026-10-13T17:06:33.576Z",
+  "id": "51c39c8d-9ab8-4b0b-ae07-5751dcfe151f",
+  "timestamp": "2026-10-14T12:28:11.518Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "6135381",
+  "hashCode": "e889afe",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "key",
       "value": "UnencryptedGitHubToken"
     },
     {
       "type": "java.lang.String",
+      "name": "value",
       "value": "ghp_1234567890abcdefghijklmnopqrstuvABCD"
     }
   ],
@@ -22,7 +24,7 @@
     "type": "android.content.SharedPreferences$Editor",
     "value": {
       "type": "android.app.SharedPreferencesImpl$EditorImpl",
-      "value": "android.app.SharedPreferencesImpl$EditorImpl@6135381"
+      "value": "android.app.SharedPreferencesImpl$EditorImpl@e889afe"
     }
   },
   "javaClassName": "android.app.SharedPreferencesImpl$EditorImpl",
@@ -32,8 +34,8 @@
   }
 }
 {
-  "id": "c73961c7-c2c4-4c58-a4fe-c4a2e7b874c9",
-  "timestamp": "2026-10-13T17:06:33.592Z",
+  "id": "76bf490a-78dd-47b0-ab0d-fe6d9b988bdd",
+  "timestamp": "2026-10-14T12:28:11.523Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
@@ -42,6 +44,7 @@
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "transformation",
       "value": "AES/GCM/NoPadding"
     }
   ],
@@ -67,8 +70,8 @@
   }
 }
 {
-  "id": "d62a7035-11ac-4e64-84f1-0af9e332a7c8",
-  "timestamp": "2026-10-13T17:06:33.603Z",
+  "id": "fbb45db5-c2e4-4587-abaa-b11bbd74de12",
+  "timestamp": "2026-10-14T12:28:11.537Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
@@ -77,10 +80,12 @@
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "algorithm",
       "value": "AES"
     },
     {
       "type": "java.lang.String",
+      "name": "provider",
       "value": "AndroidKeyStore"
     }
   ],
@@ -89,7 +94,7 @@
     "type": "javax.crypto.KeyGenerator",
     "value": {
       "type": "javax.crypto.KeyGenerator",
-      "value": "javax.crypto.KeyGenerator@720a6bd"
+      "value": "javax.crypto.KeyGenerator@df22f98"
     }
   },
   "javaClassName": "javax.crypto.KeyGenerator",
@@ -99,14 +104,14 @@
   }
 }
 {
-  "id": "020f6ed3-c361-4425-8508-24b80dc71532",
-  "timestamp": "2026-10-13T17:06:33.625Z",
+  "id": "e618aab7-e67c-48a5-849d-0caae7289ab5",
+  "timestamp": "2026-10-14T12:28:11.595Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "720a6bd",
+  "hashCode": "df22f98",
   "argsIn": [],
   "argsOut": [],
   "returnValue": {
@@ -127,66 +132,26 @@
   }
 }
 {
-  "id": "aa0a5f25-07fd-49f5-a1e7-588398a6663c",
-  "timestamp": "2026-10-13T17:06:33.636Z",
+  "id": "9b09bd8f-9d17-4ef3-a8f6-a334c0a6fb81",
+  "timestamp": "2026-10-14T12:28:11.599Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "2282c03",
+  "hashCode": "b030bd6",
   "argsIn": [
     {
       "type": "int",
-      "value": 1
+      "name": "opmode",
+      "value": "ENCRYPT_MODE"
     },
     {
       "type": "java.security.Key",
+      "name": "key",
       "value": {
         "type": "android.security.keystore2.AndroidKeyStoreSecretKey",
-        "value": {
-          "algorithm": "AES",
-          "format": null,
-          "encoded": null
-        }
-      }
-    },
-    {
-      "type": "java.security.SecureRandom",
-      "value": {
-        "type": "java.security.SecureRandom",
-        "value": "OpenSSLRandom"
-      }
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "void"
-  },
-  "javaClassName": "javax.crypto.Cipher",
-  "method": "init",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "8482d219-67aa-47a9-bda1-8508ca8f0fdc",
-  "timestamp": "2026-10-13T17:06:33.636Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "2282c03",
-  "argsIn": [
-    {
-      "type": "int",
-      "value": 1
-    },
-    {
-      "type": "java.security.Key",
-      "value": {
-        "type": "android.security.keystore2.AndroidKeyStoreSecretKey",
+        "name": "key",
         "value": {
           "algorithm": "AES",
           "format": null,
@@ -206,82 +171,25 @@
   }
 }
 {
-  "id": "3cea7190-7ec1-4881-8ea4-decbe5ad7be3",
-  "timestamp": "2026-10-13T17:06:33.640Z",
+  "id": "7c53aa3c-fe0f-4bf4-86dd-683652a3df54",
+  "timestamp": "2026-10-14T12:28:11.601Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "2282c03",
+  "hashCode": "b030bd6",
   "argsIn": [
     {
       "type": "[B",
-      "value": [
-        65,
-        75,
-        73,
-        65,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80
-      ]
+      "name": "input",
+      "value": "AKIAABCDEFGHIJKLMNOP"
     }
   ],
   "argsOut": [],
   "returnValue": {
     "type": "[B",
-    "value": [
-      28,
-      20,
-      22,
-      69,
-      -27,
-      11,
-      -117,
-      -40,
-      -104,
-      106,
-      77,
-      -124,
-      41,
-      34,
-      83,
-      32,
-      -60,
-      -101,
-      53,
-      -57,
-      1,
-      117,
-      -100,
-      -32,
-      -59,
-      -49,
-      -70,
-      -115,
-      93,
-      103,
-      72,
-      84,
-      -95,
-      -17,
-      -68,
-      -103
-    ]
+    "value": "0x19d2a86663ad8bec846b247c0db52a936f6df7452b87e3d6ba306adbcbc29da2d84faf94"
   },
   "javaClassName": "javax.crypto.Cipher",
   "method": "doFinal",
@@ -290,8 +198,8 @@
   }
 }
 {
-  "id": "0cc0a99b-dc62-4241-9624-7cfd0ab41c4a",
-  "timestamp": "2026-10-13T17:06:33.640Z",
+  "id": "b1c4a670-4605-497a-9cc0-1d8d2bb63c57",
+  "timestamp": "2026-10-14T12:28:11.602Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
@@ -300,66 +208,19 @@
   "argsIn": [
     {
       "type": "[B",
-      "value": [
-        96,
-        -73,
-        49,
-        -41,
-        -49,
-        42,
-        70,
-        -25,
-        109,
-        -52,
-        -123,
-        56,
-        28,
-        20,
-        22,
-        69,
-        -27,
-        11,
-        -117,
-        -40,
-        -104,
-        106,
-        77,
-        -124,
-        41,
-        34,
-        83,
-        32,
-        -60,
-        -101,
-        53,
-        -57,
-        1,
-        117,
-        -100,
-        -32,
-        -59,
-        -49,
-        -70,
-        -115,
-        93,
-        103,
-        72,
-        84,
-        -95,
-        -17,
-        -68,
-        -103
-      ]
+      "name": "input",
+      "value": "0xd24a5b4aa9bc4275d186fbf719d2a86663ad8bec846b247c0db52a936f6df7452b87e3d6ba306adbcbc29da2d84faf94"
     },
     {
       "type": "int",
-      "value": 0
+      "name": "flags",
+      "value": "DEFAULT"
     }
   ],
   "argsOut": [],
   "returnValue": {
     "type": "java.lang.String",
-    "value": "YLcx188qRudtzIU4HBQWReULi9iYak2EKSJTIMSbNccBdZzgxc+6jV1nSFSh77yZ\n"
+    "value": "0kpbSqm8QnXRhvv3GdKoZmOti+yEayR8DbUqk29t90Urh+PWujBq28vCnaLYT6+U\n"
   },
   "javaClassName": "android.util.Base64",
   "method": "encodeToString",
@@ -368,22 +229,24 @@
   }
 }
 {
-  "id": "a1f0659b-d244-41c8-b083-1464cf2520a5",
-  "timestamp": "2026-10-13T17:06:33.641Z",
+  "id": "ed4abf29-14c6-40d7-af5e-a74ed2a55c29",
+  "timestamp": "2026-10-14T12:28:11.605Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "6135381",
+  "hashCode": "e889afe",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "key",
       "value": "EncryptedAwsKey"
     },
     {
       "type": "java.lang.String",
-      "value": "YLcx188qRudtzIU4HBQWReULi9iYak2EKSJTIMSbNccBdZzgxc+6jV1nSFSh77yZ\n"
+      "name": "value",
+      "value": "0kpbSqm8QnXRhvv3GdKoZmOti+yEayR8DbUqk29t90Urh+PWujBq28vCnaLYT6+U\n"
     }
   ],
   "argsOut": [],
@@ -391,7 +254,7 @@
     "type": "android.content.SharedPreferences$Editor",
     "value": {
       "type": "android.app.SharedPreferencesImpl$EditorImpl",
-      "value": "android.app.SharedPreferencesImpl$EditorImpl@6135381"
+      "value": "android.app.SharedPreferencesImpl$EditorImpl@e889afe"
     }
   },
   "javaClassName": "android.app.SharedPreferencesImpl$EditorImpl",
@@ -401,30 +264,35 @@
   }
 }
 {
-  "id": "54549b43-c5d4-4f92-a201-6b696bc02dc5",
-  "timestamp": "2026-10-13T17:06:33.650Z",
+  "id": "70b78624-ba4a-4db1-a65c-c41d60a905e5",
+  "timestamp": "2026-10-14T12:28:11.613Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "6135381",
+  "hashCode": "e889afe",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "key",
       "value": "UnencryptedPreSharedKeys"
     },
     {
       "type": "java.util.Set",
+      "name": "values",
       "value": {
         "type": "java.util.HashSet",
+        "name": "values",
         "value": [
           {
             "type": "java.lang.String",
+            "name": "values",
             "value": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBALfX7kbfFv3pc3JjOHQ=\n---..."
           },
           {
             "type": "java.lang.String",
+            "name": "values",
             "value": "-----BEGIN PRIVATE KEY-----\ngJXS9EwpuzK8U1TOgfplwfKEVngCE2D5FNBQWvNmuHHbigmTCabsA=\n-----END PRIVATE ..."
           }
         ]
@@ -436,7 +304,7 @@
     "type": "android.content.SharedPreferences$Editor",
     "value": {
       "type": "android.app.SharedPreferencesImpl$EditorImpl",
-      "value": "android.app.SharedPreferencesImpl$EditorImpl@6135381"
+      "value": "android.app.SharedPreferencesImpl$EditorImpl@e889afe"
     }
   },
   "javaClassName": "android.app.SharedPreferencesImpl$EditorImpl",

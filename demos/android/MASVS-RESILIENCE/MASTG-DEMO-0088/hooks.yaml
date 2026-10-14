@@ -12,10 +12,16 @@ hookCollection:
       - method: $init
         overloads:
           - params:
-              - java.lang.String
+              - [ java.lang.String, pathname ]
   - javaClass: java.lang.Runtime
     hookSettings:
       callerFilter:
         - "org.owasp.mastestapp.MastgTest"
     hooks:
-      - exec
+      - method: exec
+        overloads:
+          - params:
+              - [ "[Ljava.lang.String;", cmdarray ]
+          - params:
+              - [ java.lang.String, command ]
+

@@ -1,20 +1,22 @@
 {
-  "id": "84b4dd53-776a-44a4-8db5-cbd37775ac4c",
-  "timestamp": "2026-10-13T17:08:22.961Z",
+  "id": "71d3e502-a4fa-4563-9f09-86197f9e0829",
+  "timestamp": "2026-10-14T12:29:11.460Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "e4ae9d1",
+  "hashCode": "eb17d3c",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "key",
       "value": "__androidx_security_crypto_encrypted_prefs_key_keyset__"
     },
     {
       "type": "java.lang.String",
-      "value": "12a9013801a3ec35562f3d8c8e12741ec3023865dde99df7fac43c63f9d61f7f4b8b6076c9fb447b24245a653f265e00125a..."
+      "name": "value",
+      "value": "12a90128372cb939ddabf4dc4578f35c7e3055b1ffb2504276ee020a22714711c5105bb1df9e5118cb039255ef5083e9af7d..."
     }
   ],
   "argsOut": [],
@@ -22,7 +24,7 @@
     "type": "android.content.SharedPreferences$Editor",
     "value": {
       "type": "android.app.SharedPreferencesImpl$EditorImpl",
-      "value": "android.app.SharedPreferencesImpl$EditorImpl@e4ae9d1"
+      "value": "android.app.SharedPreferencesImpl$EditorImpl@eb17d3c"
     }
   },
   "javaClassName": "android.app.SharedPreferencesImpl$EditorImpl",
@@ -32,22 +34,24 @@
   }
 }
 {
-  "id": "9b342b5a-6a11-4560-8e77-4d198d36e926",
-  "timestamp": "2026-10-13T17:08:22.988Z",
+  "id": "ec9af75e-c7ae-4e1a-8e68-dd99129c1fdd",
+  "timestamp": "2026-10-14T12:29:11.524Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "bdf4a4",
+  "hashCode": "8c5c34b",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "key",
       "value": "__androidx_security_crypto_encrypted_prefs_value_keyset__"
     },
     {
       "type": "java.lang.String",
-      "value": "1288012903f3be1ab409c1adc73fe8ae937c8b9d6661f6df5a228e52a031f3880b40ed90bf24687cc8f5dc94b332a8ff4008..."
+      "name": "value",
+      "value": "128801d66f6d9450a1fb43f8a4a6f47fb19a82a2d3331e85858cff093b4179a2e472cfc9a9bfbbbfae22b37da6d448e9526d..."
     }
   ],
   "argsOut": [],
@@ -55,7 +59,7 @@
     "type": "android.content.SharedPreferences$Editor",
     "value": {
       "type": "android.app.SharedPreferencesImpl$EditorImpl",
-      "value": "android.app.SharedPreferencesImpl$EditorImpl@bdf4a4"
+      "value": "android.app.SharedPreferencesImpl$EditorImpl@8c5c34b"
     }
   },
   "javaClassName": "android.app.SharedPreferencesImpl$EditorImpl",
@@ -65,22 +69,24 @@
   }
 }
 {
-  "id": "bb13a802-0af2-40eb-9587-37c52d5225a7",
-  "timestamp": "2026-10-13T17:08:23.001Z",
+  "id": "97dad701-e6dc-485b-9cc0-0b0473a8c76b",
+  "timestamp": "2026-10-14T12:29:11.537Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "10e8fd3",
+  "hashCode": "1e14fe6",
   "argsIn": [
     {
       "type": "java.lang.String",
-      "value": "ARXFliZIjAxQXUhemCLK4+4kyMzuq33Q5f2EhBtGirO7wQG2"
+      "name": "key",
+      "value": "AWxDBXsFELbKnTILeOT72DNRV6UKNvNCtIFT5ntLZmCoZtMn"
     },
     {
       "type": "java.lang.String",
-      "value": "ATD79QVJm22N1RnPfkDuQpHgazdogalrBRjEsm4aicTf+uFjVCim2EDepc708o6KR3SbPU/PLY2vCjZJJg=="
+      "name": "value",
+      "value": "AXnDjw/xqAEcXA4U+ZaMBDqcB6D+JPkRYVtj+IZQOUXcIX2sqeDRc2Dhp/KTQcvUrh5WIUewYbyy/vANRA=="
     }
   ],
   "argsOut": [],
@@ -88,7 +94,7 @@
     "type": "android.content.SharedPreferences$Editor",
     "value": {
       "type": "android.app.SharedPreferencesImpl$EditorImpl",
-      "value": "android.app.SharedPreferencesImpl$EditorImpl@10e8fd3"
+      "value": "android.app.SharedPreferencesImpl$EditorImpl@1e14fe6"
     }
   },
   "javaClassName": "android.app.SharedPreferencesImpl$EditorImpl",
@@ -98,21 +104,23 @@
   }
 }
 {
-  "id": "118f9282-d900-4291-908b-7e0bf804a22f",
-  "timestamp": "2026-10-13T17:08:23.002Z",
+  "id": "fb6d862c-3cd1-48f6-855b-fa74d08ea49e",
+  "timestamp": "2026-10-14T12:29:11.539Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "337b710",
+  "hashCode": "52b4927",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "key",
       "value": "EncryptedAWSKey"
     },
     {
       "type": "java.lang.String",
+      "name": "value",
       "value": "AKIAABCDEFGHIJKLMNOP"
     }
   ],
@@ -121,7 +129,7 @@
     "type": "android.content.SharedPreferences$Editor",
     "value": {
       "type": "androidx.security.crypto.EncryptedSharedPreferences$Editor",
-      "value": "androidx.security.crypto.EncryptedSharedPreferences$Editor@337b710"
+      "value": "androidx.security.crypto.EncryptedSharedPreferences$Editor@52b4927"
     }
   },
   "javaClassName": "androidx.security.crypto.EncryptedSharedPreferences$Editor",
@@ -131,22 +139,24 @@
   }
 }
 {
-  "id": "8816f64e-bf03-4e11-8a77-d4d50fa10a62",
-  "timestamp": "2026-10-13T17:08:23.003Z",
+  "id": "edbdb336-0525-44aa-85eb-2255a109b95a",
+  "timestamp": "2026-10-14T12:29:11.540Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "10e8fd3",
+  "hashCode": "1e14fe6",
   "argsIn": [
     {
       "type": "java.lang.String",
-      "value": "ARXFliZrfEdKcRIBbTwDrYdaF4NQ8uCdzlo3J8RvW8U="
+      "name": "key",
+      "value": "AWxDBXtPBY9YTi8GHGe9Pv91Yc3EKfkr40mWlWqIwxA="
     },
     {
       "type": "java.lang.String",
-      "value": "ATD79QWL+isEvCDk4A4z3QjE982tDZXyZPaOc53gNPUbHVS3T0EbkxUMS+e/6zXUJ6XHs4/J2lmgtSj8np6F8En7gAjgcUuCOLfz..."
+      "name": "value",
+      "value": "AXnDjw8T6yIqj+afEli3czNx8FE5hO/DxP57tHn6/cl+15ozvwtNb6EsUPW3hM9inI13ii4fIDI6RLOJ+km0fJIPGyOLWHnyU5TF..."
     }
   ],
   "argsOut": [],
@@ -154,7 +164,7 @@
     "type": "android.content.SharedPreferences$Editor",
     "value": {
       "type": "android.app.SharedPreferencesImpl$EditorImpl",
-      "value": "android.app.SharedPreferencesImpl$EditorImpl@10e8fd3"
+      "value": "android.app.SharedPreferencesImpl$EditorImpl@1e14fe6"
     }
   },
   "javaClassName": "android.app.SharedPreferencesImpl$EditorImpl",
@@ -164,21 +174,23 @@
   }
 }
 {
-  "id": "692f0c8c-3deb-4fc1-ba21-3c511a2fad9e",
-  "timestamp": "2026-10-13T17:08:23.003Z",
+  "id": "1f913951-a517-47ec-81ee-6569817c5f38",
+  "timestamp": "2026-10-14T12:29:11.540Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "337b710",
+  "hashCode": "52b4927",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "key",
       "value": "GitHubToken"
     },
     {
       "type": "java.lang.String",
+      "name": "value",
       "value": "ghp_1234567890abcdefghijklmnopqrstuvABCD"
     }
   ],
@@ -187,7 +199,7 @@
     "type": "android.content.SharedPreferences$Editor",
     "value": {
       "type": "androidx.security.crypto.EncryptedSharedPreferences$Editor",
-      "value": "androidx.security.crypto.EncryptedSharedPreferences$Editor@337b710"
+      "value": "androidx.security.crypto.EncryptedSharedPreferences$Editor@52b4927"
     }
   },
   "javaClassName": "androidx.security.crypto.EncryptedSharedPreferences$Editor",
@@ -197,22 +209,24 @@
   }
 }
 {
-  "id": "52e21baa-268c-4808-98a6-a176cdd0586a",
-  "timestamp": "2026-10-13T17:08:23.007Z",
+  "id": "e3bf3045-4b03-40a9-85b3-9bd05bcc02a9",
+  "timestamp": "2026-10-14T12:29:11.543Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "10e8fd3",
+  "hashCode": "1e14fe6",
   "argsIn": [
     {
       "type": "java.lang.String",
-      "value": "ARXFliaaC/qD+Q7fKAErr/HOq3vfAh1oEUBtEV40m+s1OQ=="
+      "name": "key",
+      "value": "AWxDBXvrE6TQkqoj2pXRUwDZZ/eCv0qgsl9QIkhV7sXRVQ=="
     },
     {
       "type": "java.lang.String",
-      "value": "ATD79QVdk2BQj2rRsjrRf7YXKqPEiJpAvr9S21V3s+9eMrdIYCtzBHUpCOW/6d8gU4/DEkW7Z/I4/UDsbAQrp/w/qJkoEU0VHsX1..."
+      "name": "value",
+      "value": "AXnDjw8DTKKXOlXgA8nqQqUKbal1P9DJyNP1PMCQqQAsdJkW+bOa1hOXj705YN1sm9Vy8bwHyZ7hhopuKz8c227RV3JB3vpqQ++o..."
     }
   ],
   "argsOut": [],
@@ -220,7 +234,7 @@
     "type": "android.content.SharedPreferences$Editor",
     "value": {
       "type": "android.app.SharedPreferencesImpl$EditorImpl",
-      "value": "android.app.SharedPreferencesImpl$EditorImpl@10e8fd3"
+      "value": "android.app.SharedPreferencesImpl$EditorImpl@1e14fe6"
     }
   },
   "javaClassName": "android.app.SharedPreferencesImpl$EditorImpl",
@@ -230,30 +244,35 @@
   }
 }
 {
-  "id": "b87482dd-e563-43c6-9ab1-a17703dd59d4",
-  "timestamp": "2026-10-13T17:08:23.007Z",
+  "id": "750877f3-1040-4775-bc60-8c69dbae4f32",
+  "timestamp": "2026-10-14T12:29:11.543Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "337b710",
+  "hashCode": "52b4927",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "key",
       "value": "preSharedKeys"
     },
     {
       "type": "java.util.Set",
+      "name": "values",
       "value": {
         "type": "java.util.HashSet",
+        "name": "values",
         "value": [
           {
             "type": "java.lang.String",
+            "name": "values",
             "value": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBALfX7kbfFv3pc3JjOHQ=\n---..."
           },
           {
             "type": "java.lang.String",
+            "name": "values",
             "value": "-----BEGIN PRIVATE KEY-----\ngJXS9EwpuzK8U1TOgfplwfKEVngCE2D5FNBQWvNmuHHbigmTCabsA=\n-----END PRIVATE ..."
           }
         ]
@@ -265,7 +284,7 @@
     "type": "android.content.SharedPreferences$Editor",
     "value": {
       "type": "androidx.security.crypto.EncryptedSharedPreferences$Editor",
-      "value": "androidx.security.crypto.EncryptedSharedPreferences$Editor@337b710"
+      "value": "androidx.security.crypto.EncryptedSharedPreferences$Editor@52b4927"
     }
   },
   "javaClassName": "androidx.security.crypto.EncryptedSharedPreferences$Editor",

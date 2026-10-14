@@ -1,15 +1,16 @@
 {
-  "id": "59686f8f-7440-4ecb-9cee-01f6c891b510",
-  "timestamp": "2026-10-13T19:14:49.886Z",
+  "id": "84ad05bc-f322-4fa7-a407-11d22f0b5627",
+  "timestamp": "2026-10-14T13:05:52.690Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "e886449",
+  "hashCode": "cf55714",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "pathname",
       "value": "/system/app/Superuser.apk"
     }
   ],
@@ -24,17 +25,18 @@
   }
 }
 {
-  "id": "afb6266f-6ad3-413d-8da6-d07bf36407b3",
-  "timestamp": "2026-10-13T19:14:49.886Z",
+  "id": "a3318e54-5053-4433-83d9-d8df5d73dba3",
+  "timestamp": "2026-10-14T13:05:52.699Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "817214e",
+  "hashCode": "2765bbd",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "pathname",
       "value": "/sbin/su"
     }
   ],
@@ -49,17 +51,18 @@
   }
 }
 {
-  "id": "f0b9516c-6672-46bc-833d-44c7bacef350",
-  "timestamp": "2026-10-13T19:14:49.887Z",
+  "id": "eae654fc-565d-44f5-9cdc-333ded4ea141",
+  "timestamp": "2026-10-14T13:05:52.701Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "e53226f",
+  "hashCode": "1316903",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "pathname",
       "value": "/system/bin/su"
     }
   ],
@@ -74,17 +77,18 @@
   }
 }
 {
-  "id": "b07c5adc-17ca-4f27-a8cc-181f01cc4332",
-  "timestamp": "2026-10-13T19:14:49.887Z",
+  "id": "2f2922dd-5054-409e-8354-776f260b746b",
+  "timestamp": "2026-10-14T13:05:52.705Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "ebdab7c",
+  "hashCode": "b5ad080",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "pathname",
       "value": "/system/xbin/su"
     }
   ],
@@ -99,17 +103,18 @@
   }
 }
 {
-  "id": "5e0dd35c-cd0d-47d8-ae88-b59a2daf0d64",
-  "timestamp": "2026-10-13T19:14:49.887Z",
+  "id": "126b122b-ab4f-4248-af94-233202f65938",
+  "timestamp": "2026-10-14T13:05:52.709Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "548045a",
+  "hashCode": "e889afe",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "pathname",
       "value": "/data/local/xbin/su"
     }
   ],
@@ -124,17 +129,18 @@
   }
 }
 {
-  "id": "353bc0bc-f5a0-46f1-ae23-4c1a2125d6e7",
-  "timestamp": "2026-10-13T19:14:49.888Z",
+  "id": "7a7d8521-59e7-4492-abea-f44e6ec4d4b0",
+  "timestamp": "2026-10-14T13:05:52.721Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "899768b",
+  "hashCode": "7dc74ac",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "pathname",
       "value": "/data/local/bin/su"
     }
   ],
@@ -149,17 +155,18 @@
   }
 }
 {
-  "id": "0263e7af-d765-4002-aea9-b3929aee7af1",
-  "timestamp": "2026-10-13T19:14:49.888Z",
+  "id": "e6befd94-64f8-4c5a-843d-63a2460ebb13",
+  "timestamp": "2026-10-14T13:05:52.722Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "5f80368",
+  "hashCode": "d724575",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "pathname",
       "value": "/system/sd/xbin/su"
     }
   ],
@@ -174,17 +181,18 @@
   }
 }
 {
-  "id": "60c202e4-85b7-45ca-9b77-4463ebb68912",
-  "timestamp": "2026-10-13T19:14:49.888Z",
+  "id": "573fe487-ce68-4f32-91bf-a754c556826a",
+  "timestamp": "2026-10-14T13:05:52.729Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "6135381",
+  "hashCode": "84f690a",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "pathname",
       "value": "/system/bin/failsafe/su"
     }
   ],
@@ -199,17 +207,18 @@
   }
 }
 {
-  "id": "e4496891-b13f-4442-9d67-37ee71ef5ea9",
-  "timestamp": "2026-10-13T19:14:49.888Z",
+  "id": "8291ec73-1941-48ab-90a1-34d7aa1d26b2",
+  "timestamp": "2026-10-14T13:05:52.733Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "720c26",
+  "hashCode": "38cf57b",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "pathname",
       "value": "/data/local/su"
     }
   ],
@@ -224,17 +233,18 @@
   }
 }
 {
-  "id": "e2121957-ea01-4066-b86c-7b67e7f16b2a",
-  "timestamp": "2026-10-13T19:14:49.889Z",
+  "id": "5ccc80ca-6733-425a-a9ed-3770d8e0258a",
+  "timestamp": "2026-10-14T13:05:52.735Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "ba6f067",
+  "hashCode": "df22f98",
   "argsIn": [
     {
       "type": "java.lang.String",
+      "name": "pathname",
       "value": "/su/bin/su"
     }
   ],
@@ -249,57 +259,18 @@
   }
 }
 {
-  "id": "b42ee27e-c11d-4543-9a70-b03888f7bc6a",
-  "timestamp": "2026-10-13T19:14:49.894Z",
+  "id": "4f0c409d-8d25-48c4-8132-f2927b0cb161",
+  "timestamp": "2026-10-14T13:05:52.761Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "b5f1b9",
+  "hashCode": "45aae2d",
   "argsIn": [
     {
       "type": "[Ljava.lang.String;",
-      "value": [
-        "which",
-        "su"
-      ]
-    },
-    {
-      "type": "[Ljava.lang.String;",
-      "value": null
-    },
-    {
-      "type": "java.io.File",
-      "value": null
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "java.lang.Process",
-    "value": {
-      "type": "java.lang.UNIXProcess",
-      "value": "Process[pid=7553 ,hasExited=true, exitcode=1]"
-    }
-  },
-  "javaClassName": "java.lang.Runtime",
-  "method": "exec",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "ec3455fe-642d-4bcc-b133-68fcab8e0d59",
-  "timestamp": "2026-10-13T19:14:49.894Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "b5f1b9",
-  "argsIn": [
-    {
-      "type": "[Ljava.lang.String;",
+      "name": "cmdarray",
       "value": [
         "which",
         "su"
@@ -311,7 +282,7 @@
     "type": "java.lang.Process",
     "value": {
       "type": "java.lang.UNIXProcess",
-      "value": "Process[pid=7553 ,hasExited=true, exitcode=1]"
+      "value": "Process[pid=5170, hasExited=false]"
     }
   },
   "javaClassName": "java.lang.Runtime",
@@ -321,57 +292,18 @@
   }
 }
 {
-  "id": "b8ae5e91-ef33-4d0f-a1e1-6e2302887f53",
-  "timestamp": "2026-10-13T19:14:49.920Z",
+  "id": "73d5a71f-0d06-47ec-97bb-b2a18fb8eb4a",
+  "timestamp": "2026-10-14T13:05:52.898Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "b5f1b9",
+  "hashCode": "45aae2d",
   "argsIn": [
     {
       "type": "[Ljava.lang.String;",
-      "value": [
-        "getprop",
-        "ro.debuggable"
-      ]
-    },
-    {
-      "type": "[Ljava.lang.String;",
-      "value": null
-    },
-    {
-      "type": "java.io.File",
-      "value": null
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "java.lang.Process",
-    "value": {
-      "type": "java.lang.UNIXProcess",
-      "value": "Process[pid=7555, hasExited=false]"
-    }
-  },
-  "javaClassName": "java.lang.Runtime",
-  "method": "exec",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "1e0891d8-11b9-4587-b7e6-6c5158e5df85",
-  "timestamp": "2026-10-13T19:14:49.920Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "b5f1b9",
-  "argsIn": [
-    {
-      "type": "[Ljava.lang.String;",
+      "name": "cmdarray",
       "value": [
         "getprop",
         "ro.debuggable"
@@ -383,7 +315,7 @@
     "type": "java.lang.Process",
     "value": {
       "type": "java.lang.UNIXProcess",
-      "value": "Process[pid=7555, hasExited=false]"
+      "value": "Process[pid=5172, hasExited=false]"
     }
   },
   "javaClassName": "java.lang.Runtime",
@@ -393,57 +325,18 @@
   }
 }
 {
-  "id": "db0a5e52-2247-45a7-a3d5-afba604cf163",
-  "timestamp": "2026-10-13T19:14:49.925Z",
+  "id": "9e2ed5dc-3c02-4125-8e98-6467fe8b9320",
+  "timestamp": "2026-10-14T13:05:52.907Z",
   "type": "hook-java",
   "stackTrace": {
     "platformStackTrace": [],
     "nativeStackTrace": []
   },
-  "hashCode": "b5f1b9",
+  "hashCode": "45aae2d",
   "argsIn": [
     {
       "type": "[Ljava.lang.String;",
-      "value": [
-        "getprop",
-        "ro.secure"
-      ]
-    },
-    {
-      "type": "[Ljava.lang.String;",
-      "value": null
-    },
-    {
-      "type": "java.io.File",
-      "value": null
-    }
-  ],
-  "argsOut": [],
-  "returnValue": {
-    "type": "java.lang.Process",
-    "value": {
-      "type": "java.lang.UNIXProcess",
-      "value": "Process[pid=7556, hasExited=false]"
-    }
-  },
-  "javaClassName": "java.lang.Runtime",
-  "method": "exec",
-  "fieldType": {
-    "fieldType": "instance"
-  }
-}
-{
-  "id": "5ccd4819-2fa8-430f-87e3-b577e6b416a6",
-  "timestamp": "2026-10-13T19:14:49.925Z",
-  "type": "hook-java",
-  "stackTrace": {
-    "platformStackTrace": [],
-    "nativeStackTrace": []
-  },
-  "hashCode": "b5f1b9",
-  "argsIn": [
-    {
-      "type": "[Ljava.lang.String;",
+      "name": "cmdarray",
       "value": [
         "getprop",
         "ro.secure"
@@ -455,7 +348,7 @@
     "type": "java.lang.Process",
     "value": {
       "type": "java.lang.UNIXProcess",
-      "value": "Process[pid=7556, hasExited=false]"
+      "value": "Process[pid=5173, hasExited=false]"
     }
   },
   "javaClassName": "java.lang.Runtime",

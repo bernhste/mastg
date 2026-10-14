@@ -2,11 +2,10 @@ Class: android.app.SharedPreferencesImpl$EditorImpl, Method: putString, Params: 
 Class: javax.crypto.Cipher, Method: getInstance, Params: AES/GCM/NoPadding
 Class: javax.crypto.KeyGenerator, Method: getInstance, Params: AES, AndroidKeyStore
 Class: javax.crypto.KeyGenerator, Method: generateKey, Params: 
-Class: javax.crypto.Cipher, Method: init, Params: 1, {"algorithm":"AES","format":null,"encoded":null}, OpenSSLRandom
-Class: javax.crypto.Cipher, Method: init, Params: 1, {"algorithm":"AES","format":null,"encoded":null}
-Class: javax.crypto.Cipher, Method: doFinal, Params: 65,75,73,65,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80
-Class: android.util.Base64, Method: encodeToString, Params: 96,-73,49,-41,-49,42,70,-25,109,-52,-123,56,28,20,22,69,-27,11,-117,-40,-104,106,77,-124,41,34,83,32,-60,-101,53,-57,1,117,-100,-32,-59,-49,-70,-115,93,103,72,84,-95,-17,-68,-103, 0
-Class: android.app.SharedPreferencesImpl$EditorImpl, Method: putString, Params: EncryptedAwsKey, YLcx188qRudtzIU4HBQWReULi9iYak2EKSJTIMSbNccBdZzgxc+6jV1nSFSh77yZ
+Class: javax.crypto.Cipher, Method: init, Params: ENCRYPT_MODE, {"algorithm":"AES","format":null,"encoded":null}
+Class: javax.crypto.Cipher, Method: doFinal, Params: AKIAABCDEFGHIJKLMNOP
+Class: android.util.Base64, Method: encodeToString, Params: 0xd24a5b4aa9bc4275d186fbf719d2a86663ad8bec846b247c0db52a936f6df7452b87e3d6ba306adbcbc29da2d84faf94, DEFAULT
+Class: android.app.SharedPreferencesImpl$EditorImpl, Method: putString, Params: EncryptedAwsKey, 0kpbSqm8QnXRhvv3GdKoZmOti+yEayR8DbUqk29t90Urh+PWujBq28vCnaLYT6+U
 
 Class: android.app.SharedPreferencesImpl$EditorImpl, Method: putStringSet, Params: UnencryptedPreSharedKeys, -----BEGIN PRIVATE KEY-----
 MIIEvAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBALfX7kbfFv3pc3JjOHQ=
